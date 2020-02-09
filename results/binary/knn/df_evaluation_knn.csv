@@ -1,0 +1,211 @@
+Classifier;best_HP;Features;Accuracy;Precision;Mean_CV_Train_Accuracy;Mean_CV_Test_Accuracy;AUC
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'Age_2'];0.7046666666666667;0.7283582089552239;0.6552273658628561;0.6455002461353274;0.5535704776612173
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Sterilized'];0.7026666666666667;0.7291196388261851;0.6334693617635172;0.6229944227941179;0.5547473241386656
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State', 'Age_0'];0.7026666666666667;0.7631806395851339;0.6744044131128151;0.647696833418888;0.610618243782949
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'State', 'Age_0'];0.6973333333333334;0.7394422310756972;0.5943711013005956;0.5940067031937535;0.5723946962032057
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Age_2'];0.6886666666666666;0.7307692307692307;0.6621267552130486;0.6516490975388939;0.5558389690611854
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Sterilized'];0.688;0.7399836467702371;0.6759241527631202;0.6389252606438994;0.5716065818201181
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.6853333333333333;0.754585152838428;0.7146732717005019;0.6668875888012042;0.5937483359071303
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'Age_0'];0.6806666666666666;0.7432432432432432;0.6116406769822117;0.617124829932253;0.5754885776665424
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Sterilized', 'Age_0', 'Age_2'];0.6806666666666666;0.7432432432432432;0.6926366316821979;0.6909277365538106;0.5754885776665424
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Sterilized', 'Age_2'];0.68;0.7537511032656664;0.6954777494195693;0.6434449223110482;0.5912561904254753
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State', 'Age_2'];0.6793333333333333;0.763302752293578;0.6918153261284088;0.6654809965857821;0.6044251557590926
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'State', 'Age_0', 'Age_2'];0.6786666666666666;0.7358024691358025;0.6148828924422899;0.6151986481920062;0.5630225251610842
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'Age_0', 'Age_2'];0.6773333333333333;0.7690857681432611;0.6931060425640889;0.6578478168661612;0.6114489589435007
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'PhotoAmt', 'Age_0'];0.6766666666666666;0.7328431372549019;0.6993746701781297;0.667088067558906;0.5577027530752436
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'Age_2'];0.6753333333333333;0.7639405204460966;0.6637820821722072;0.6313901505403395;0.6041802012886736
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'PhotoAmt'];0.6733333333333333;0.728744939271255;0.6728859493387315;0.6443575043992628;0.5501357899781671
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'PhotoAmt', 'Age_2'];0.6726666666666666;0.7338308457711443;0.69068505026938;0.6493745452767697;0.5587571223174823
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'PhotoAmt', 'Age_0', 'Age_2'];0.672;0.7511150758251561;0.6969968854602718;0.6587132775658521;0.5855689866340061
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'State'];0.67;0.7272727272727273;0.6113616159618867;0.6031217668131211;0.5471164598753927
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'State', 'Age_0'];0.6693333333333333;0.7629350893697083;0.686361549736473;0.645570127145353;0.6012141221577294
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'State', 'Age_2'];0.6673333333333333;0.7527272727272727;0.7008880441787303;0.6507077042966706;0.5867990840832845
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.6666666666666666;0.7712609970674487;0.7202250914561521;0.6624927388476253;0.6110123009744928
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'PhotoAmt'];0.6653333333333333;0.7102661596958175;0.6661418089504662;0.6396633736625403;0.5145641407955696
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'State', 'PhotoAmt', 'Age_0'];0.6646666666666666;0.755083179297597;0.7057671293033896;0.6553280356331812;0.5894509824804303
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Sterilized', 'State'];0.664;0.7293921731890092;0.5875305470084721;0.5860411652523384;0.5499973374514086
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Color2', 'Sterilized', 'Age_2'];0.6633333333333333;0.7221324717285945;0.6068344626983425;0.6054209097201985;0.5371798285318707
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'Age_2'];0.6626666666666666;0.7136186770428016;0.6323272522955687;0.623659477977045;0.5211140103306886
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State', 'Age_0', 'Age_2'];0.6626666666666666;0.771513353115727;0.6791545151614574;0.6481389065658945;0.6101176846477449
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Age_0'];0.662;0.7599620493358634;0.6783515313046387;0.639764208124013;0.5953511901592204
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'State', 'Age_2'];0.662;0.7370242214532872;0.6171904273009591;0.6054733868523178;0.5622184354864477
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State', 'Age_0', 'Age_2'];0.6613333333333333;0.7726819541375872;0.6941995291330171;0.642480485638688;0.6111188029181533
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'State', 'Age_0'];0.6606666666666666;0.7585227272727273;0.677616724437255;0.6434934444325123;0.5931039991479845
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'State', 'Age_0', 'Age_2'];0.658;0.7477148080438757;0.6565935340710015;0.6435434588380892;0.5775653655679216
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Sterilized', 'State'];0.6573333333333333;0.7479376718606783;0.6964787240917384;0.6311399137203438;0.5777410937749614
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.6566666666666666;0.7459016393442623;0.7097566935513239;0.6496217609080704;0.5746685127003568
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'Color2', 'Sterilized', 'Age_0'];0.6566666666666666;0.7364273204903677;0.6988066592385497;0.6520425570132639;0.5603759518611215
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2'];0.656;0.7117046347211312;0.6542828186760473;0.6213132319916784;0.5170243356941264
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'State', 'Age_0'];0.6546666666666666;0.7682317682317682;0.7032778421580342;0.6541676428310442;0.6037808189999467
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'Age_0', 'Age_2'];0.6533333333333333;0.7483751160631383;0.6208770258718804;0.6080204411796076;0.5774961393045424
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Age_0', 'Age_2'];0.6533333333333333;0.7416440831074977;0.6692907675851574;0.6447065249344655;0.5677512114596092
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'State', 'Age_2'];0.6533333333333333;0.7525967894239849;0.6797282068970035;0.630427727993776;0.5833430960115022
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'PhotoAmt'];0.6533333333333333;0.7304048234280792;0.6901786561413171;0.6312417186242459;0.5502103413387294
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'Age_2'];0.6526666666666666;0.7495327102803738;0.6866330561964258;0.658443073435118;0.5789711912242399
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Age_0', 'Age_2'];0.6526666666666666;0.7436131386861314;0.6968673937501918;0.6512515731924617;0.5705255870919644
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Age_2'];0.652;0.735632183908046;0.6515832717065094;0.6278377361665493;0.5583577400287556
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'Age_2'];0.652;0.7283633247643531;0.5983352018054277;0.5865742677302349;0.5466638266148358
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color2', 'Sterilized', 'State', 'Age_0'];0.6506666666666666;0.7451523545706371;0.6411289856792619;0.6291156898293879;0.5723520954257415
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['State', 'PhotoAmt', 'Age_0'];0.6506666666666666;0.743801652892562;0.653066411445651;0.6404330260601329;0.5704031098567549
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'PhotoAmt', 'Age_2'];0.65;0.740036231884058;0.7291307664134109;0.6529571257619232;0.5647318813568347
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.65;0.7453703703703703;0.6849164087952041;0.6443111703508232;0.5725278236327813
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State', 'PhotoAmt'];0.65;0.7485928705440901;0.6912968140369499;0.6381079558609825;0.5770754566270835
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Sterilized', 'PhotoAmt'];0.6493333333333333;0.7398005439709883;0.7231156777181291;0.6359594878737268;0.5642579477075457
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'State', 'Age_0', 'Age_2'];0.6486666666666666;0.7666666666666667;0.6557403579301958;0.6290947246108686;0.6001650780126737
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Age_2'];0.648;0.7250213492741246;0.6580941630407895;0.6358615555844246;0.5405719154374568
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'State', 'Age_0'];0.648;0.7570731707317073;0.6939891897811239;0.6345754721774614;0.5879972309494649
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Age_0', 'Age_2'];0.648;0.7611496531219029;0.6817170101391251;0.6557993776900596;0.5931945258000959
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color2', 'Sterilized', 'Age_0', 'Age_2'];0.6473333333333333;0.7275086505190311;0.5792645660651997;0.5776534665439513;0.5446456147824699
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'State', 'Age_2'];0.6466666666666666;0.7531340405014465;0.6880664728078595;0.6258302203645879;0.5825017306565845
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color1', 'Sterilized', 'State', 'Age_2'];0.6466666666666666;0.7414903403863845;0.6359176395008302;0.628838692601649;0.5662601842483626
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'State'];0.6466666666666666;0.7304653204565408;0.6484098008005351;0.5882321404490201;0.5493689759838117
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_0'];0.6466666666666666;0.7428307123034228;0.7235232772602899;0.6531043675127735;0.5682091698173491
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'Age_2'];0.646;0.7290209790209791;0.6742562827392056;0.6353694131011376;0.546946056765536
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_2'];0.646;0.7416974169741697;0.7264443930088963;0.6537715466829043;0.5664359124554024
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'State', 'PhotoAmt', 'Age_2'];0.646;0.7403669724770642;0.6970279172874049;0.631168303738959;0.5644869268864157
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'State', 'PhotoAmt', 'Age_0'];0.6453333333333333;0.7541302235179786;0.7274511743482281;0.6463848868056725;0.5835028489269929
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.6446666666666667;0.7403314917127072;0.6943846416085148;0.6464833592468927;0.5641887214441663
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'Age_0', 'Age_2'];0.6446666666666667;0.7490458015267175;0.6908948878529118;0.6585161495810664;0.5765322967144151
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'Age_0'];0.6446666666666667;0.7457627118644068;0.6021525765447779;0.5961331256586536;0.5719846637201129
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State', 'PhotoAmt', 'Age_2'];0.6446666666666667;0.7421150278293135;0.7235478742085598;0.6271398141126683;0.5667873688694818
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State', 'Age_0'];0.644;0.7810140237324703;0.6869177276392749;0.6476193811268905;0.6150380744448586
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.644;0.7612838515546639;0.677925833200811;0.6634541634864077;0.5922999094733479
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'State', 'PhotoAmt'];0.644;0.7378995433789954;0.6719288876942567;0.624618641301865;0.5604664785132328
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'PhotoAmt', 'Age_0'];0.6433333333333333;0.7425373134328358;0.7062921763985269;0.6487555494887646;0.5671388252835614
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'State', 'PhotoAmt'];0.6426666666666667;0.7361237488626023;0.6575940922239378;0.6171594545857204;0.557569625645668
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'PhotoAmt', 'Age_0'];0.642;0.7240484429065744;0.6963304729962084;0.6610079527757079;0.5382554981628415
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State', 'PhotoAmt', 'Age_0'];0.642;0.7584830339321357;0.7376416909891299;0.6444080589567579;0.588279461100165
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State'];0.642;0.7425093632958801;0.6352735560149282;0.6028321721440361;0.5668406198413121
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1'];0.642;0.6989247311827957;0.637694007063491;0.6211154356833328;0.49083018265083334
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.6413333333333333;0.7459562321598477;0.687448521326686;0.6681761898654134;0.571563981042654
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'Sterilized'];0.6406666666666667;0.7160804020100503;0.6528744418506396;0.6326037711942109;0.5243143937376857
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'State', 'PhotoAmt', 'Age_2'];0.6406666666666667;0.7447817836812144;0.6789566313366242;0.626053934809889;0.5697907236807072
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'PhotoAmt', 'Age_0'];0.6406666666666667;0.7406716417910447;0.6641468717760705;0.6277084109801716;0.5639437669737473
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.64;0.750730282375852;0.6907716794041164;0.6476945904151598;0.5777623941636935
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'State'];0.64;0.7343039126478617;0.6786540512831868;0.6351700238023894;0.5543745673358539
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'PhotoAmt', 'Age_0', 'Age_2'];0.6393333333333333;0.7452290076335878;0.7210467277079035;0.6498681708890525;0.5701421800947867
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Age_0', 'Age_2'];0.6386666666666667;0.7359705611775529;0.6135380445263064;0.6156620069866362;0.55667500931892
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'PhotoAmt', 'Age_0', 'Age_2'];0.638;0.7397003745318352;0.7213307417598207;0.6515478785624965;0.5620480323765908
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State'];0.638;0.7310469314079422;0.5839815039142081;0.5724211156187856;0.5490547952500133
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.638;0.7612244897959184;0.7164820591063105;0.6535500752413311;0.5906331540550616
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'State', 'PhotoAmt'];0.6373333333333333;0.7487828627069133;0.6902836269979872;0.6238306328941716;0.5745673358538793
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'Age_0'];0.6373333333333333;0.735050597976081;0.6752818526432192;0.6510055019508182;0.555077480164013
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'PhotoAmt', 'Age_0'];0.6373333333333333;0.7532210109018831;0.7206884599484574;0.6551309717342163;0.5804142925608392
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'State', 'Age_0', 'Age_2'];0.6366666666666667;0.7419354838709677;0.6702113837967554;0.6231380757390034;0.5649981362159859
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'State', 'Age_2'];0.6366666666666667;0.7480544747081712;0.6590764527059433;0.6256077510152339;0.5734437403482614
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'PhotoAmt'];0.6366666666666667;0.7213541666666666;0.6669258846649662;0.6185931459482243;0.533164705255871
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'PhotoAmt', 'Age_0'];0.6353333333333333;0.730909090909091;0.6175055921855043;0.607004909797834;0.5484583843655146
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.634;0.7495069033530573;0.6663704310936871;0.6546112448826328;0.5747963150327493
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'State', 'PhotoAmt', 'Age_0'];0.634;0.7504950495049505;0.6957499081211781;0.628992828155794;0.576095638745407
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'State', 'PhotoAmt'];0.634;0.7461089494163424;0.7207685803980385;0.6280540624322235;0.5702486820384471
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Age_0', 'Age_2'];0.634;0.7470703125;0.6032690895327258;0.5981406597708492;0.571548005751105
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'PhotoAmt', 'Age_2'];0.6326666666666667;0.7290909090909091;0.6979853067691325;0.6343537535477224;0.5452633260557005
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State', 'Age_2'];0.6326666666666667;0.7456140350877193;0.666152935392117;0.6242778512170767;0.569300814739869
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'PhotoAmt', 'Age_0'];0.632;0.7420596727622714;0.7314595162901503;0.6371204299828991;0.5642792480962777
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'Age_0'];0.632;0.7227635075287865;0.5715748034356772;0.5698983498175797;0.5350444645614783
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'PhotoAmt', 'Age_2'];0.63;0.706953642384106;0.6810439688401275;0.6475228587256462;0.506986527504127
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.63;0.7349624060150376;0.6822426310924913;0.6336621393696317;0.5537621811598061
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'State', 'Age_0', 'Age_2'];0.6293333333333333;0.7424684159378037;0.6472303916919976;0.6336378874640168;0.564332499068108
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'PhotoAmt', 'Age_2'];0.6293333333333333;0.7316620241411328;0.6584403649017437;0.6236560356529562;0.5487406145162149
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Age_0'];0.6293333333333333;0.7538148524923703;0.665350164372049;0.6490316037394259;0.5792747217636722
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'Age_0', 'Age_2'];0.628;0.7533129459734964;0.5992608042328423;0.5869005652644048;0.578326854465094
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Sterilized', 'State', 'Age_2'];0.6273333333333333;0.743614931237721;0.604043898266436;0.6093196072491317;0.5655093455455562
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['State', 'Age_2'];0.6266666666666667;0.7196095829636202;0.5490900882754728;0.554276094350075;0.5293040097981788
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'State'];0.6266666666666667;0.7681473456121344;0.6322286882828133;0.6078475193248504;0.5955695191437244
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color1', 'Sterilized'];0.6266666666666667;0.6972111553784861;0.6524228589073424;0.6446875463763908;0.48772565099313064
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'State', 'PhotoAmt'];0.6266666666666667;0.7438423645320197;0.7094974011745899;0.6247441854248152;0.5656850737525959
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'PhotoAmt', 'Age_0'];0.626;0.7388781431334622;0.7100903157304468;0.656267661937774;0.5587145215400181
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Sterilized', 'Age_2'];0.626;0.7738359201773836;0.673146441496827;0.6677985321234297;0.6015922040577241
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['State', 'PhotoAmt', 'Age_0', 'Age_2'];0.6253333333333333;0.7438180019782393;0.6718114063849137;0.6542895249070916;0.5653868683103467
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'Age_0'];0.6253333333333333;0.7183348095659876;0.6859599914396144;0.6569851484772339;0.5270568187869429
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Age_0'];0.6246666666666667;0.7003257328990228;0.5705072417561446;0.5667323454778709;0.4940997923212099
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'State', 'Age_2'];0.6246666666666667;0.7484848484848485;0.6268430150740198;0.6021657162281686;0.5714095532243464
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.6233333333333333;0.7306967984934086;0.6875538491998411;0.6444830576773302;0.5464241972415996
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'State', 'Age_0', 'Age_2'];0.622;0.7573839662447257;0.6539990649486507;0.6333917429814354;0.5818573938974386
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'Age_0'];0.62;0.7477017364657814;0.5948206062248628;0.5860593473152115;0.5693913413919804
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'State', 'Age_0'];0.62;0.7842907385697538;0.6576314816907901;0.6414663549898548;0.6103200383406997
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'State', 'Age_0'];0.6193333333333333;0.765934065934066;0.5875147238547573;0.5825470323550084;0.5910059108578731
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'State', 'PhotoAmt', 'Age_2'];0.6193333333333333;0.7335907335907336;0.6750540229163962;0.6363536339818909;0.5500772139091538
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'PhotoAmt', 'Age_2'];0.6186666666666667;0.7201458523245214;0.7204290760290349;0.6248178932738544;0.5294637627136696
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'PhotoAmt'];0.618;0.726078799249531;0.6449581247983737;0.61812269193772;0.5387347569093136
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'State', 'PhotoAmt'];0.6173333333333333;0.7305848513902206;0.6937857859321716;0.6195787034760972;0.5454071036796422
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'State', 'Age_2'];0.6173333333333333;0.7555791710945803;0.6587605663505839;0.6167922886081136;0.5785398583524148
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'State', 'PhotoAmt'];0.616;0.7327502429543246;0.6894254039943336;0.6061160943940196;0.5483572075190373
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Age_0', 'Age_2'];0.6153333333333333;0.735236220472441;0.5853910244510807;0.5793830146757445;0.5517812450077213
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['State', 'PhotoAmt'];0.6153333333333333;0.7289272030651341;0.6496453301542846;0.6479658016087921;0.5426859790191171
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'State', 'PhotoAmt', 'Age_0'];0.6153333333333333;0.7385229540918163;0.6765113790851677;0.6479411926536044;0.5563288780020236
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'State', 'Age_0', 'Age_2'];0.6153333333333333;0.7569892473118279;0.5950690273351904;0.58592856646519;0.5797167048298631
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'State', 'Age_0'];0.6153333333333333;0.7553418803418803;0.6256073644262079;0.6118028412540203;0.5777677192608766
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.614;0.7328767123287672;0.6835026544089863;0.6355139998679832;0.5482347302838276
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color2', 'Sterilized', 'PhotoAmt'];0.614;0.7297297297297297;0.6980161572273138;0.6367749707883096;0.5436870972895256
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'State', 'Age_0'];0.6133333333333333;0.7377377377377378;0.6465199031398255;0.6192862066348417;0.5549070770541562
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Age_0'];0.612;0.7440660474716202;0.5888173133771416;0.5872204542164945;0.5630544757441823
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['State', 'PhotoAmt', 'Age_2'];0.612;0.7325467059980334;0.6328772298976475;0.6246956724584686;0.5474625911922892
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'PhotoAmt', 'Age_2'];0.6113333333333333;0.7145454545454546;0.6997702089710748;0.6385784739573076;0.5197028595771873
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color1', 'Color2', 'Sterilized', 'Age_2'];0.6113333333333333;0.7239089184060721;0.5987909877024128;0.5905589318102148;0.5346450822727515
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Age_0'];0.6113333333333333;0.7388663967611336;0.6593907124621553;0.6359615111546407;0.5560839235316044
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'State', 'PhotoAmt', 'Age_2'];0.6106666666666667;0.7293086660175268;0.7186192244394721;0.6297592762623464;0.5426167527557377
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Color2', 'State', 'PhotoAmt'];0.6106666666666667;0.7324777887462981;0.7224609947331772;0.6125399929853491;0.5471643857500399
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['State', 'Age_0', 'Age_2'];0.61;0.7407786885245902;0.6041155544501775;0.6042647923578208;0.5583843655146706
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'State'];0.6093333333333333;0.7502668089647813;0.6007122238582617;0.5805495963371474;0.5702540071356302
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Age_2'];0.608;0.7064544650751547;0.6135314723334108;0.6086236352352267;0.505639277916822
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'State', 'PhotoAmt'];0.606;0.7352941176470589;0.635403467677092;0.6279561301429215;0.5503434687683051
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'State', 'PhotoAmt'];0.6046666666666667;0.7251461988304093;0.661027943720356;0.60782281881849;0.5357527024868204
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['PhotoAmt', 'Age_0', 'Age_2'];0.6046666666666667;0.7269155206286837;0.6301610993979381;0.6217505078572421;0.538351349912136
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Age_0', 'Age_2'];0.604;0.7085972850678733;0.5936287181314512;0.5928267092855685;0.5092922945843762
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'State', 'Age_2'];0.602;0.738045738045738;0.6193020241890683;0.6003875635788561;0.5533468235795304
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.6006666666666667;0.7614678899082569;0.6526719145229299;0.6266468385137106;0.5809840779594226
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'PhotoAmt', 'Age_0', 'Age_2'];0.5993333333333334;0.768957345971564;0.6094639503319123;0.5948043336296845;0.58848181479312
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'PhotoAmt', 'Age_0'];0.5986666666666667;0.7290192113245703;0.6286097592115474;0.6101455453076224;0.5405825656318228
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'Age_0', 'Age_2'];0.598;0.7144212523719166;0.6672527641529359;0.6578497852163716;0.5186697907236807
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Color1', 'Sterilized', 'State', 'Age_0'];0.598;0.7579908675799086;0.6382507885758959;0.631636322488273;0.5764896959369508
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'PhotoAmt', 'Age_0'];0.5973333333333334;0.7497231450719822;0.6095694687282881;0.59514626810413;0.5669204962990575
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'PhotoAmt', 'Age_2'];0.5966666666666667;0.7435064935064936;0.6355457696421501;0.623854234786461;0.5593002822301507
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'State'];0.5946666666666667;0.7264437689969605;0.5687714945450999;0.551786552469396;0.5364396400234304
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'PhotoAmt'];0.5933333333333334;0.7129186602870813;0.6591131046820108;0.6110834779155226;0.5160019170349859
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'Color2', 'PhotoAmt'];0.5933333333333334;0.7035681610247027;0.6966759562470575;0.6222246880004701;0.5004100324830928
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'PhotoAmt', 'Age_2'];0.5926666666666667;0.7444933920704846;0.6209394379605044;0.5971483183010885;0.5597049896160605
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'State', 'PhotoAmt'];0.5913333333333334;0.7466517857142857;0.6773947877710067;0.6437897131820779;0.5620054315991267
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized'];0.5906666666666667;0.7388949079089924;0.5839131215258656;0.5851715755947644;0.5524362319612333
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'PhotoAmt', 'Age_0'];0.59;0.7546296296296297;0.6220755885715704;0.5890965757755781;0.5708024921454817
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'PhotoAmt', 'Age_0'];0.5893333333333334;0.7322751322751323;0.6291101927663024;0.6103170847396737;0.5436924223867086
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color1', 'State'];0.588;0.7236438075742068;0.6099278789510432;0.5809646069575413;0.5317003035305394
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Breed1', 'Color2'];0.588;0.698455949137148;0.6176762420604955;0.6000229976545505;0.49142126843814904
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Color1', 'State', 'Age_2'];0.5873333333333334;0.7334047109207709;0.5636335387122158;0.5561825468126322;0.5448692688641569
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Age_0', 'Age_2'];0.5866666666666667;0.7408637873754153;0.6645481817633863;0.6554262608862355;0.5541402630598008
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['State', 'Age_0'];0.5846666666666667;0.7535211267605634;0.5674746058436447;0.5703646840253183;0.5683103466638265
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.584;0.7677018633540372;0.633285498845718;0.6229890670505224;0.5827786357101018
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'PhotoAmt'];0.584;0.7237798546209762;0.6115009782623589;0.5996508055175694;0.5314553490601204
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.5833333333333334;0.7602905569007264;0.6439019413028854;0.6220757617080447;0.5751584216411949
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Color2', 'Sterilized'];0.5833333333333334;0.7059386973180076;0.5490513245240088;0.5474651174011039;0.5043452793013472
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color2', 'Age_2'];0.582;0.720164609053498;0.5731872346352678;0.5762702290326529;0.5261355769742797
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_0'];0.582;0.7494172494172494;0.6522949600400431;0.6092062577423683;0.5631663027850258
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color1', 'Color2', 'State'];0.5813333333333334;0.7194244604316546;0.5897137606025386;0.5758763209575374;0.5250119814686618
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Color1', 'Sterilized', 'State'];0.5806666666666667;0.7361419068736141;0.6580565447172159;0.617655524614311;0.5472762127908835
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Color1', 'Color2', 'Age_2'];0.58;0.7057115198451114;0.5871806010515566;0.5820080614469498;0.5039245966238884
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Color1', 'State'];0.58;0.7225130890052356;0.5620632892392227;0.5550758121527407;0.5292614090207146
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'PhotoAmt', 'Age_2'];0.578;0.7381489841986456;0.6395353304572337;0.6175060215494981;0.5492784493317002
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Sterilized', 'Age_0'];0.5773333333333334;0.7141403865717192;0.6425113735353921;0.6334184759238269;0.5169710847222961
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Breed1', 'Age_0'];0.5766666666666667;0.7770448548812665;0.6396893910806354;0.6296615728509759;0.5892592789818415
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'State', 'PhotoAmt'];0.572;0.7144340602284528;0.638874508962873;0.6087358128869811;0.5170775866659567
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'PhotoAmt'];0.5713333333333334;0.7051792828685259;0.5997798272469317;0.5852187519139918;0.5029607540337611
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Breed1', 'Color2', 'Sterilized'];0.5706666666666667;0.7364787111622555;0.664460545086934;0.6408803176239761;0.5460141647585068
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_2'];0.5706666666666667;0.7397899649941657;0.6635971716627662;0.6139234868399309;0.5499121358964801
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'PhotoAmt', 'Age_2'];0.5706666666666667;0.7353951890034365;0.632025127094865;0.5929500104047908;0.544714841045849
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'PhotoAmt', 'Age_2'];0.568;0.7283950617283951;0.6251515602206853;0.6113540757162987;0.5356728260290751
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'PhotoAmt', 'Age_0', 'Age_2'];0.5653333333333334;0.7448359659781288;0.6548208041859267;0.6122211751819785;0.5545662708344427
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'PhotoAmt', 'Age_2'];0.5626666666666666;0.730635838150289;0.6019239275108922;0.5863514596415423;0.5377283135417221
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'PhotoAmt'];0.5586666666666666;0.7180910099889012;0.5609207472320709;0.5332385046287814;0.5212418126630811
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'PhotoAmt', 'Age_0', 'Age_2'];0.5586666666666666;0.7235494880546075;0.6190989184259955;0.6017434455997898;0.5283880930826987
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'PhotoAmt', 'Age_0'];0.5573333333333333;0.7398773006134969;0.6070126390987577;0.593715140174458;0.5475797433303158
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Age_0'];0.5566666666666666;0.7512886597938144;0.595062248026962;0.5961586775909188;0.5594493849512754
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['Color1', 'Sterilized', 'State'];0.55;0.7369077306733167;0.6299133448328115;0.6181214651520074;0.5430161350444646
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'Sterilized', 'PhotoAmt'];0.5446666666666666;0.7447368421052631;0.6050732774905769;0.5933191813530769;0.5502689174077428
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color2', 'PhotoAmt'];0.544;0.7270501835985312;0.5761143847634748;0.5720726352355011;0.5309547899249161
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2', 'Sterilized', 'PhotoAmt'];0.542;0.7305764411027569;0.6158007532189628;0.5821789783310276;0.5347302838276798
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 3};['PhotoAmt', 'Age_0'];0.532;0.7214554579673776;0.6155116665578166;0.6060869353455548;0.5230736460940412
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['PhotoAmt', 'Age_2'];0.5246666666666666;0.687089715536105;0.6186244749848017;0.6092494973611747;0.47628201714681295
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Color2'];0.524;0.707673568818514;0.5762361983305532;0.5764269554849818;0.5056925288886522
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'Age_0', 'Age_2'];0.5166666666666667;0.6797385620915033;0.6212420906759509;0.6115020224111777;0.4653975185047127
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 7};['Color1', 'Sterilized', 'Age_0'];0.502;0.6648822269807281;0.6274848591969034;0.6137552249398578;0.44262740295010383
+KNeighborsClassifier;{'kneighborsclassifier__n_neighbors': 5};['Sterilized', 'PhotoAmt'];0.43266666666666664;0.7133891213389121;0.6103410488658018;0.6014739830335536;0.5076787901379199

@@ -1,0 +1,211 @@
+Classifier;best_HP;Features;Accuracy;Precision;Mean_CV_Train_Accuracy;Mean_CV_Test_Accuracy;AUC
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Sterilized', 'Age_2'];0.688;0.7863414634146342;0.6974913172475092;0.6836883275825464;0.6359231055966772
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'State'];0.686;0.7807692307692308;0.6902094236389369;0.6570454944326359;0.6286543479418499
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized'];0.6806666666666666;0.7432432432432432;0.6859853436150647;0.6859856120008205;0.5754885776665424
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized'];0.6806666666666666;0.7432432432432432;0.6734787746404668;0.6713115886481307;0.5754885776665424
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'Age_2'];0.6766666666666666;0.7838645418326693;0.7170570496037503;0.6794262954925787;0.6291655572714202
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized', 'State', 'Age_2'];0.676;0.7960457856399584;0.7322131048565141;0.6523009510427359;0.6423345226050375
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'State', 'Age_0', 'Age_2'];0.6753333333333333;0.8271889400921659;0.7031238856644407;0.6594538487334765;0.6717450343468769
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Sterilized', 'State', 'Age_2'];0.672;0.8145251396648044;0.6881531768931721;0.6469279180082348;0.6589807763991693
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'Age_0', 'Age_2'];0.6706666666666666;0.8176670441676104;0.6804641008338137;0.6624177859026392;0.6612812183822355
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'State', 'Age_2'];0.6693333333333333;0.7884416924664602;0.7341213305077539;0.6613798427938196;0.6317482294051866
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.6686666666666666;0.8052516411378556;0.7286742132742676;0.6671993800520798;0.6488151658767773
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'Sterilized', 'State'];0.6673333333333333;0.7785571142284569;0.7069775267562829;0.6428888908419805;0.6199318387560574
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'State'];0.6673333333333333;0.7709551656920078;0.7132771169682984;0.653190471390579;0.610836572767453
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.6666666666666666;0.7924130663856691;0.7604682391354778;0.6630486924981962;0.6350497896586613
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'PhotoAmt', 'Age_0'];0.6666666666666666;0.8039430449069004;0.748425242335667;0.657786660682882;0.646743703072581
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized', 'Age_2'];0.6666666666666666;0.7822990844354019;0.7066071925262032;0.6659755102444389;0.6240055381010704
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'Sterilized', 'State', 'Age_0'];0.666;0.8064159292035398;0.7223560341750598;0.651338359126503;0.6488684168486075
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'Sterilized', 'State'];0.6626666666666666;0.7753259779338014;0.7331206596428823;0.6337366254036376;0.6146653176420469
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_2'];0.662;0.7824742268041237;0.7397356104119395;0.6267678416985014;0.6226369881250333
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'PhotoAmt', 'Age_0'];0.6606666666666666;0.815242494226328;0.6876529641851532;0.6493007321438822;0.6548218754992279
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'State', 'PhotoAmt', 'Age_0'];0.6586666666666666;0.7967213114754098;0.782961571895525;0.6478167929203111;0.6365088662868098
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'State', 'Age_0', 'Age_2'];0.658;0.8058690744920993;0.7164085806509252;0.6454459150919636;0.645130198626125
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'State', 'Age_0'];0.6573333333333333;0.8141695702671312;0.7200029865802138;0.6561929973789815;0.6524522072527823
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'State', 'Age_0'];0.656;0.7964796479647965;0.7360485535554335;0.6452222098017797;0.6352627935459823
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'Sterilized', 'Age_0', 'Age_2'];0.656;0.8094144661308841;0.7010116765846017;0.6554150687553884;0.6476063688162309
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.656;0.8031496062992126;0.7514636448654035;0.6644199963141497;0.6417594121092709
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'PhotoAmt', 'Age_0'];0.656;0.8065984072810012;0.7076262857850024;0.661714947550791;0.6450077213909153
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'PhotoAmt', 'Age_0', 'Age_2'];0.6553333333333333;0.8049886621315193;0.699418389249753;0.6504483993330314;0.6432344640289684
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'State', 'Age_2'];0.6553333333333333;0.7807933194154488;0.6763506427112038;0.6477430759161549;0.6185473134884711
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'PhotoAmt', 'Age_2'];0.6553333333333333;0.8099078341013825;0.692229314778088;0.6404061329031894;0.6477820970232706
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Sterilized'];0.6546666666666666;0.7645320197044335;0.6225084973785464;0.5939728384150185;0.5992331860056446
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'Sterilized', 'Age_2'];0.6546666666666666;0.7770897832817337;0.7276734806180813;0.6554521057822531;0.6141754087012088
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized'];0.6546666666666666;0.77482088024565;0.6260102129028332;0.5940462533003052;0.6115767612758933
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'State'];0.654;0.7612085769980507;0.6246203769047065;0.6193560144039292;0.5948612812183822
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'State', 'Age_0', 'Age_2'];0.6526666666666666;0.8047945205479452;0.718817178637747;0.6540060687441276;0.6419883912881411
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Sterilized', 'PhotoAmt', 'Age_2'];0.6526666666666666;0.7858672376873662;0.7451457918870235;0.6461860376588424;0.6231481974546035
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'PhotoAmt', 'Age_0', 'Age_2'];0.652;0.791894852135816;0.7462389300215935;0.6527082896748679;0.6291708823686032
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'State', 'PhotoAmt', 'Age_0'];0.652;0.8095238095238095;0.7215408556878433;0.648670086469167;0.6460620906331541
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.6513333333333333;0.7962138084632516;0.7439413796095355;0.654339237193799;0.6332445817136163
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_0'];0.6513333333333333;0.7891304347826087;0.7513527191568438;0.6509299356129759;0.6260983012939987
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'State', 'PhotoAmt', 'Age_0'];0.6506666666666666;0.7815482502651113;0.7754946853890918;0.6551544774977746;0.6178284253687629
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'PhotoAmt', 'Age_0'];0.6506666666666666;0.7959866220735786;0.7256727327715301;0.651301102376824;0.6327706480643273
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'Sterilized', 'Age_0'];0.65;0.8074245939675174;0.7044949542671322;0.6427417864178891;0.6433409659726291
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'PhotoAmt', 'Age_0', 'Age_2'];0.65;0.7874186550976139;0.750741136186084;0.6484471639415086;0.6238511102827626
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'State', 'Age_2'];0.6473333333333333;0.7689161554192229;0.7066811859092116;0.6494845852086446;0.6024655199957399
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'State', 'Age_0'];0.6473333333333333;0.8123515439429929;0.7021975583333613;0.6493364920318896;0.6466425262261036
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'State', 'Age_0', 'Age_2'];0.6466666666666666;0.8212974296205631;0.6742756354357056;0.6406290005001442;0.6539645348527611
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'State', 'Age_0'];0.646;0.8291457286432161;0.6620655154429798;0.6365529912377289;0.6599872197667608
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'State', 'Age_0'];0.6453333333333333;0.8272841051314143;0.6887090498443931;0.6534135587103479;0.6582139624048139
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'State', 'Age_0'];0.6453333333333333;0.8094674556213017;0.6981584282967147;0.6387017293009436;0.6432717397092498
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'PhotoAmt', 'Age_0'];0.6453333333333333;0.7767195767195767;0.7691396151585423;0.6374415777636118;0.6107886468928057
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'Age_0', 'Age_2'];0.6453333333333333;0.8124253285543608;0.7009931271751937;0.6560071256108637;0.6458703871345652
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'Sterilized'];0.6446666666666667;0.7663265306122449;0.6437601508325994;0.5901563080634702;0.5986207998295969
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'Age_0'];0.6446666666666667;0.8107142857142857;0.6800934748114142;0.645668700292863;0.6440971297726183
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized', 'State', 'PhotoAmt'];0.6426666666666667;0.7672502574665293;0.7708257525259559;0.6312151687841996;0.5991479844507162
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Sterilized', 'State', 'PhotoAmt'];0.6413333333333333;0.7673216132368149;0.762858356369908;0.6375533480126483;0.5988497790084669
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Sterilized', 'State', 'PhotoAmt'];0.6406666666666667;0.7621951219512195;0.682854080754211;0.6344023305998899;0.592528888652218
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'State', 'PhotoAmt', 'Age_2'];0.6406666666666667;0.7509727626459144;0.7706032608821586;0.6243973621177543;0.5782363278129825
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Sterilized', 'State', 'PhotoAmt'];0.6406666666666667;0.7810457516339869;0.7084784137620244;0.6321804248395544;0.6139677299110708
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'PhotoAmt', 'Age_0'];0.64;0.7942857142857143;0.724949966628399;0.6424070799085184;0.6271366952446882
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Age_2'];0.6386666666666667;0.7359705611775529;0.6525607462262457;0.6507076310557325;0.55667500931892
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Age_2'];0.6386666666666667;0.7359705611775529;0.6484842307277395;0.6473000872574225;0.55667500931892
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Age_0', 'Age_2'];0.638;0.8192019950124688;0.6512265704713209;0.6388503168540307;0.6484530592683316
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized', 'Age_0'];0.6366666666666667;0.8050239234449761;0.6730897794333273;0.6356642948504387;0.6358112785558336
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized', 'Age_2'];0.636;0.7659352142110762;0.6487622916441923;0.6424074369580914;0.595707971670483
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Age_0', 'Age_2'];0.6353333333333333;0.8090024330900243;0.6773511985755729;0.6459272865797975;0.6387613823952287
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'PhotoAmt', 'Age_2'];0.6353333333333333;0.7731182795698924;0.6568406684344132;0.6506344633586115;0.6036796421534694
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'State', 'Age_2'];0.6346666666666667;0.7648902821316614;0.7287666427826072;0.6295862948993272;0.5941104425155759
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'Age_0', 'Age_2'];0.634;0.8048192771084337;0.6740161462421912;0.6381467094723329;0.6345652058150061
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'State', 'PhotoAmt', 'Age_2'];0.634;0.7685774946921444;0.7156675998013409;0.6356993818373277;0.5981841418605889
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'Age_2'];0.6333333333333333;0.7735644637053087;0.6416291177152866;0.6404064762200864;0.6035571649182598
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Sterilized', 'PhotoAmt'];0.6333333333333333;0.7879133409350056;0.6521901476666526;0.6143180586610477;0.618499387613824
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'PhotoAmt', 'Age_2'];0.6333333333333333;0.7671957671957672;0.6629178528239017;0.6362196030652432;0.5964108844986421
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'State', 'Age_2'];0.6326666666666667;0.7669491525423728;0.6919512143838509;0.6251021505095784;0.595936950849353
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Age_0'];0.632;0.8163522012578617;0.6479841793637091;0.639220989241547;0.6435379945684009
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized', 'State', 'Age_2'];0.632;0.7701396348012889;0.6773512517847606;0.6358842923181334;0.5993609883380372
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Age_0'];0.6313333333333333;0.8068459657701712;0.6687356338411463;0.6438157640682338;0.6352681186431652
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Sterilized', 'State', 'Age_0', 'Age_2'];0.6313333333333333;0.8038740920096852;0.6391460457463417;0.6199898735248016;0.6326694712178498
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'Age_0', 'Age_2'];0.6313333333333333;0.7959905660377359;0.7021419753293027;0.6414807147912729;0.6255231907982319
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'Sterilized', 'State', 'PhotoAmt'];0.6306666666666667;0.7574511819116135;0.6808342840184574;0.6315861432905854;0.5841205602002236
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Age_0'];0.6293333333333333;0.8091697645600991;0.6587675241670553;0.6307727156998267;0.6364449651206134
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.6293333333333333;0.7629083245521602;0.7120914120113562;0.6475203456459591;0.590318973321263
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'Age_0'];0.6293333333333333;0.8024242424242424;0.6859670242066617;0.6346621116296265;0.6305980084136535
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized', 'Age_0'];0.6293333333333333;0.8154235145385588;0.648354710982711;0.6333666121845639;0.6416422599712445
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized'];0.6286666666666667;0.7385057471264368;0.6445377052748241;0.640184775900582;0.5586612705681878
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'State', 'PhotoAmt', 'Age_2'];0.628;0.746772591857001;0.7614873993348679;0.6256940288402673;0.5698812503328186
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Sterilized', 'State', 'Age_2'];0.628;0.7814269535673839;0.6424999169679209;0.6261021227695731;0.6101602854252091
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.6273333333333333;0.7594142259414226;0.7094603841720517;0.6384419070731795;0.5856488630917513
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'State'];0.6273333333333333;0.7649572649572649;0.6340328384793054;0.6210977296865572;0.5921454816550402
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'Age_2'];0.626;0.7738359201773836;0.633661936112415;0.6336624964192048;0.6015922040577241
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'PhotoAmt', 'Age_2'];0.626;0.759453781512605;0.6732012303680625;0.6484829650275437;0.5853506576495021
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'Age_2'];0.626;0.7738359201773836;0.6372007178434351;0.6368496033041917;0.6015922040577241
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Sterilized', 'PhotoAmt'];0.6246666666666667;0.7963855421686747;0.675016726136516;0.5943469165061546;0.6233825017306566
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'State', 'Age_2'];0.6233333333333333;0.782258064516129;0.6354039259626765;0.6170218714835767;0.6094413973055007
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'State', 'Age_2'];0.6226666666666667;0.7442557442557443;0.6548580700701494;0.623619351098106;0.5654401192821767
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Sterilized', 'State', 'PhotoAmt'];0.6226666666666667;0.7554858934169278;0.65715573548271;0.6423689168022311;0.5797326801214122
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Age_2'];0.622;0.7634989200863931;0.632845516649627;0.606874591281234;0.5890036743170564
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Age_2'];0.622;0.7663755458515283;0.6506893499150327;0.6193953997183703;0.5922519835987007
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'PhotoAmt'];0.6206666666666667;0.7579617834394905;0.6184313536683401;0.6150617791890085;0.5822088503115183
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'PhotoAmt', 'Age_2'];0.62;0.7610333692142088;0.7379197953883597;0.5946775581434631;0.5856328878002024
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'State', 'PhotoAmt', 'Age_2'];0.62;0.7502579979360166;0.6821500751408134;0.6275098868400042;0.5726396506736248
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Age_2'];0.618;0.7308429118773946;0.6173014702985885;0.610910858179635;0.5458810373289313
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'Sterilized', 'PhotoAmt'];0.6173333333333333;0.7645764576457645;0.7296748549599074;0.5993845838628424;0.588934448053677
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['State', 'PhotoAmt'];0.6173333333333333;0.7323671497584541;0.6244158167571695;0.6092437113270681;0.5480057511049576
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'PhotoAmt', 'Age_2'];0.616;0.7670011148272018;0.6901911694546993;0.5974195478049553;0.5912348900367432
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'Age_2'];0.616;0.7578040904198062;0.6775365124449853;0.6233606137517369;0.5808403003354812
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'State', 'Age_2'];0.6133333333333333;0.7540106951871658;0.6240645125356126;0.612760814413597;0.5756962564566803
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'State', 'PhotoAmt', 'Age_2'];0.6133333333333333;0.7665544332210998;0.6610834420474277;0.6354035388007144;0.5899888172959156
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.6126666666666667;0.7775175644028103;0.684373427915239;0.6273997645120739;0.6012087970605463
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'Sterilized', 'State', 'PhotoAmt'];0.6126666666666667;0.742827868852459;0.7215593227088316;0.6249913552805297;0.5615794238244849
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['State', 'PhotoAmt', 'Age_2'];0.612;0.7466110531803962;0.6574334359498265;0.6394425385016167;0.5663027850258266
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'Sterilized', 'State'];0.612;0.7721518987341772;0.6311420948783325;0.6185041490533654;0.5955375685606262
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'PhotoAmt', 'Age_2'];0.612;0.7405900305188199;0.6210816071886642;0.5992724977622603;0.5585068427498802
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['State', 'Age_2'];0.6106666666666667;0.7507987220447284;0.6269361334410906;0.6250646053737059;0.5712018744342084
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_2'];0.61;0.7453027139874739;0.700604319058424;0.639072030906211;0.5642313222216305
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'PhotoAmt', 'Age_2'];0.61;0.7915632754342432;0.6468538445740746;0.6011253378581585;0.6136056233026252
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'State', 'PhotoAmt', 'Age_2'];0.61;0.7427685950413223;0.7283962810897207;0.6285857595996212;0.5609830129399862
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.61;0.7915632754342432;0.651263547423933;0.6208789681596925;0.6136056233026252
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'State', 'Age_2'];0.6093333333333333;0.7524219590958019;0.632142480816586;0.6235462795297162;0.5728526545609458
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Sterilized', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.6086666666666667;0.7733644859813084;0.6716445355065339;0.6409620590884084;0.5957665477394962
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'PhotoAmt', 'Age_2'];0.608;0.7476139978791092;0.6524495682031507;0.6044618837221374;0.5667074924117365
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized', 'State'];0.608;0.7668571428571429;0.6526530264055743;0.6186534095075709;0.5887959955269184
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Sterilized'];0.606;0.8118279569892473;0.5802082281486387;0.5688881009384636;0.6289525533840993
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'State', 'Age_0', 'Age_2'];0.6046666666666667;0.8071808510638298;0.6114096375398714;0.607351842966302;0.6247563768038766
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.604;0.795134443021767;0.6380714638868813;0.6175068271998168;0.6145375153096544
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'State', 'PhotoAmt'];0.6033333333333334;0.7725118483412322;0.660731694988115;0.5959377920768503;0.5932744022578413
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'PhotoAmt', 'Age_2'];0.6026666666666667;0.7755102040816326;0.6871712545430562;0.6004956946687829;0.5960487778901965
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized', 'Age_0', 'Age_2'];0.6026666666666667;0.7931034482758621;0.6132809137013058;0.6021648464920292;0.6122903242984186
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'State', 'Age_2'];0.602;0.7935897435897435;0.6160047297818603;0.6095005947621928;0.6124660525054583
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'State', 'Age_0', 'Age_2'];0.6;0.7989487516425755;0.6280291891872409;0.6082047657329088;0.6162415464082219
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'State', 'PhotoAmt', 'Age_0'];0.6;0.7667057444314185;0.7080524450351235;0.6143560157771966;0.5863571010170936
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.6;0.7805178791615289;0.6565812702114456;0.6252505458052031;0.6
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'State', 'PhotoAmt'];0.6;0.7382198952879581;0.6368481949598369;0.5874923200010107;0.5532243463443207
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'State', 'PhotoAmt', 'Age_2'];0.6;0.7433155080213903;0.6832061813971582;0.6348104931925753;0.5597209649076096
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'State'];0.6;0.782608695652174;0.6262317793933346;0.5716683910330022;0.6019489855689866
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'State'];0.598;0.7378947368421053;0.6099643730159732;0.5911952261922777;0.5524522072527823
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'Sterilized', 'State', 'PhotoAmt', 'Age_0'];0.5966666666666667;0.7691387559808612;0.6864300848866769;0.6227302152651876;0.5878854039086213
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'Sterilized', 'PhotoAmt'];0.5966666666666667;0.7737226277372263;0.6798896389954002;0.5913420147648238;0.5924330369029235
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'State', 'PhotoAmt', 'Age_0'];0.5966666666666667;0.7992021276595744;0.6456497961787737;0.5981249404345184;0.6151712018744342
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'PhotoAmt'];0.5953333333333334;0.7488888888888889;0.6086488187603237;0.5897876818446609;0.5654986953511902
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'PhotoAmt', 'Age_0'];0.5946666666666667;0.7936925098554534;0.61046480714287;0.6037954094960355;0.6098514297885937
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'PhotoAmt', 'Age_0'];0.5946666666666667;0.7944664031620553;0.6311791954135739;0.6047221453955298;0.6105010916449225
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'PhotoAmt', 'Age_0', 'Age_2'];0.5933333333333334;0.7683956574185766;0.6655118865463401;0.6080565626947465;0.5861653975185047
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.5933333333333334;0.7696969696969697;0.674794445613044;0.6167272369224415;0.5874647212311626
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'State'];0.5926666666666667;0.7322175732217573;0.6108722453410422;0.6062022257371769;0.5441131050641673
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'Sterilized', 'State', 'Age_0'];0.5926666666666667;0.7860824742268041;0.6448529491149382;0.6089442977947246;0.6025826721337664
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['PhotoAmt', 'Age_2'];0.5926666666666667;0.7551724137931034;0.6051841419799636;0.6036457507942293;0.5720485648863092
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'State', 'Age_0', 'Age_2'];0.5906666666666667;0.7787610619469026;0.6403319978685429;0.6047951894985679;0.5953139144789392
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'State', 'PhotoAmt'];0.5906666666666667;0.7378640776699029;0.6666046590822978;0.58412033010057;0.5511369082485755
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'State', 'PhotoAmt'];0.5906666666666667;0.743109151047409;0.7649336914826594;0.5953461197362997;0.5576335268118644
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'Sterilized', 'PhotoAmt', 'Age_0'];0.5893333333333334;0.7686658506731946;0.6674942823724055;0.6121703642812002;0.5852707811917567
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'State'];0.5886666666666667;0.732484076433121;0.6130767809436959;0.6048320342679702;0.5438681505937483
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'State', 'Age_0'];0.5866666666666667;0.7865612648221344;0.6304932465954917;0.6178028212958648;0.6009159167154801
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'State', 'PhotoAmt', 'Age_0', 'Age_2'];0.5866666666666667;0.7701863354037267;0.6757209651837695;0.6108351499374751;0.5859736940199158
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'PhotoAmt', 'Age_0', 'Age_2'];0.5866666666666667;0.8016643550624133;0.6178759218384495;0.595198562133904;0.6132594919857288
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'PhotoAmt', 'Age_0', 'Age_2'];0.586;0.7893333333333333;0.619654892074174;0.610836015096056;0.6030406304915064
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'Age_0', 'Age_2'];0.5853333333333334;0.8124098124098124;0.577466188779504;0.5748177879900059;0.6207572288194259
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized', 'PhotoAmt'];0.5846666666666667;0.7482758620689656;0.6267322186695077;0.5818956503397053;0.5624633899568667
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'Color2', 'State'];0.5846666666666667;0.7734177215189874;0.6616019913281039;0.5806350868220969;0.5884498642100219
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color2', 'State', 'PhotoAmt'];0.584;0.7657213316892725;0.7113318371253033;0.5858215751873617;0.5808296501411151
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'State', 'Age_0'];0.5833333333333334;0.7961432506887053;0.618153550215699;0.5909371617470272;0.6076415144576389
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'State', 'Age_0'];0.5833333333333334;0.8106936416184971;0.6145404661450965;0.5992762879808051;0.6186857660152298
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2', 'PhotoAmt'];0.5826666666666667;0.7711757269279393;0.6727748531319142;0.5555846810352569;0.5857287395494968
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'Color2', 'PhotoAmt', 'Age_0'];0.582;0.779373368146214;0.6301602532002107;0.5882313714191705;0.5930507481761542
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'PhotoAmt', 'Age_2'];0.5813333333333334;0.7550776583034647;0.6227116277437168;0.6034254374749894;0.5691889876990255
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'Sterilized', 'PhotoAmt', 'Age_0'];0.5806666666666667;0.7909836065573771;0.625991495283735;0.6059071105323857;0.6024974705788381
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'State', 'PhotoAmt', 'Age_0'];0.5793333333333334;0.7767624020887729;0.6420368168101211;0.5891571322986769;0.5898556898663401
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'Age_0'];0.5793333333333334;0.8063583815028902;0.5781890991023696;0.5762247555652357;0.6138931785505086
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'State', 'PhotoAmt'];0.578;0.7554479418886199;0.7041429188483507;0.59441930144075;0.5687683050215666
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'State', 'Age_0', 'Age_2'];0.5773333333333334;0.7994310099573257;0.591899421247098;0.5760407377083625;0.6079237446083392
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Age_2'];0.576;0.8131539611360239;0.5633661608275161;0.5525829378093801;0.6173704670110229
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'PhotoAmt', 'Age_0'];0.5753333333333334;0.8073529411764706;0.604646840751681;0.5910850077356163;0.6129985622237607
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'Age_0', 'Age_2'];0.5753333333333334;0.8110119047619048;0.5865632022593651;0.5843041007692771;0.6155972096490762
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Sterilized', 'Age_0'];0.5726666666666667;0.8026315789473685;0.5921404176732429;0.5825250875389424;0.6085041802012887
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Sterilized', 'PhotoAmt'];0.5713333333333334;0.7627551020408163;0.6046840030782373;0.5908625795842899;0.5744235582299376
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['State', 'PhotoAmt', 'Age_0'];0.5706666666666667;0.8062593144560357;0.5944382873404271;0.5755568806061933;0.6103306885350657
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'State', 'Age_0', 'Age_2'];0.57;0.7945402298850575;0.588860886552605;0.5745201459728515;0.6014111507535013
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2', 'PhotoAmt'];0.57;0.7831491712707183;0.6217483217435998;0.5459859663038584;0.592315884764897
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['PhotoAmt', 'Age_0', 'Age_2'];0.5673333333333334;0.8038922155688623;0.5773550313535138;0.5738536717467497;0.6073113584322914
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Age_0'];0.5666666666666667;0.8072837632776935;0.5675721583096918;0.5632555065970402;0.6094360722083177
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'PhotoAmt'];0.5666666666666667;0.7913669064748201;0.5813755622044154;0.5434296698856974;0.5977421587943981
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['PhotoAmt', 'Age_0'];0.5653333333333334;0.8095238095238095;0.574334774873214;0.5720752902195059;0.6104371904787262
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'PhotoAmt', 'Age_0', 'Age_2'];0.5653333333333334;0.785007072135785;0.6101313503127285;0.5884909189934169;0.5922466585015176
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['State', 'PhotoAmt', 'Age_0', 'Age_2'];0.5653333333333334;0.780250347705146;0.6188765188970284;0.592640686458016;0.5883486873635444
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'Age_0', 'Age_2'];0.5646666666666667;0.793859649122807;0.5834134552132688;0.5749658262360576;0.5989190052718462
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'State', 'Age_0'];0.5633333333333334;0.8039513677811551;0.5904542700072768;0.5799678023681175;0.6057670802492146
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'State'];0.5606666666666666;0.7869565217391304;0.5617913508122082;0.5382048261566826;0.5921774322381383
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Age_0'];0.5593333333333333;0.8040123456790124;0.558030192437893;0.5574004154409109;0.6042228020661377
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'PhotoAmt', 'Age_0'];0.558;0.7987804878048781;0.5906026944617732;0.577892314398079;0.6000266254859151
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Age_0', 'Age_2'];0.556;0.809220985691574;0.5634959397527816;0.5602910063881661;0.6064007668139944
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Sterilized', 'Age_0'];0.554;0.805379746835443;0.5535273580617026;0.5513250521635694;0.6030299802971404
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Age_0', 'Age_2'];0.5513333333333333;0.8080645161290323;0.5641997359622791;0.5611813232312107;0.6037328931252997
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'PhotoAmt'];0.5513333333333333;0.7690140845070422;0.6182284069606887;0.5499511254065215;0.5744981095905001
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color2'];0.5506666666666666;0.7962674961119751;0.5440596344545968;0.5200106647960931;0.595463017200064
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['State', 'Age_0', 'Age_2'];0.546;0.8169491525423729;0.5525087299541894;0.5509528691817056;0.6070877043506044
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'State', 'Age_0'];0.5453333333333333;0.8198970840480274;0.562124490103649;0.5530291399142696;0.608562756270302
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2'];0.542;0.729426433915212;0.558660910119126;0.5470954703867204;0.5334309601150221
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['State', 'Age_0'];0.54;0.8218694885361552;0.5459868283230447;0.5452461183904974;0.6073699345013047
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'State', 'Age_0'];0.5393333333333333;0.8273381294964028;0.5852086370869927;0.5806063305987914;0.61014431013366
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color2', 'Age_0'];0.5386666666666666;0.8091993185689949;0.5468761941493409;0.5468767363252074;0.5992757867831089
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Age_0', 'Age_2'];0.5386666666666666;0.8091993185689949;0.5468761941493409;0.5468767363252074;0.5992757867831089
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'Age_0', 'Age_2'];0.538;0.8153310104529616;0.543096470917789;0.543097229267848;0.6026998242717929
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Sterilized', 'Age_0'];0.538;0.8153310104529616;0.543096470917789;0.543097229267848;0.6026998242717929
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'State', 'PhotoAmt'];0.538;0.7291139240506329;0.6179130978964091;0.5792636319467084;0.5325363437882741
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Color1', 'Color2', 'PhotoAmt'];0.5353333333333333;0.7386666666666667;0.5578451205844634;0.516489263382012;0.5423345226050375
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color1', 'PhotoAmt'];0.5206666666666667;0.7448979591836735;0.5353519440191286;0.5197515841328268;0.5455508813035838
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1', 'Color2'];0.5206666666666667;0.7772277227722773;0.5536570460164212;0.511303612709976;0.5715373555567389
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Breed1', 'Color1'];0.514;0.7810344827586206;0.5350739122819077;0.5132648997473462;0.571995313914479
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'gini'};['Color2', 'PhotoAmt'];0.5066666666666667;0.7404580152671756;0.5293669368234442;0.5133779334025643;0.538846583950157
+DecisionTreeClassifier;{'decisiontreeclassifier__criterion': 'entropy'};['Breed1', 'Color1', 'State'];0.5;0.7747747747747747;0.5660155561351352;0.5194921738853393;0.5633420309920656
